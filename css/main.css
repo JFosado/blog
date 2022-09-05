@@ -1,0 +1,102 @@
+html{
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+header{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows:1fr 1fr ;
+}
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+}
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+header .icons span {
+    color: rgb(0, 0, 0);
+}
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    background-color: #171810;
+    
+}
+nav .nav-logo-container {
+    margin-left: 0px;
+}
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 0px;
+    height: 90px;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+nav .profile-link a{
+    color: #ffffff;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+main {
+    height: 100%;
+    background-image: url(/assets/img/pexels-fauxels-3184454.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+main .main-container {
+    text-align: center;
+    margin-top: 5.7rem;
+}
+main .main-container .main-container-title {
+    color:rgb(255, 255, 255);
+    letter-spacing: 10px;
+    font-size: 40px;
+    width: 50rem;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    background-color: #171810;
+    border-radius: 15px 15px 15px 0px;
+}
+main .main-container .main-container-buttom {
+    height: 40px;
+    background-color:#ffffff;
+    width: 100px;
+    margin: 100px auto;
+    display: grid;
+    border-radius: 12px;
+}
+main .main-container .main-container-buttom a {
+    font-size: 15px;
+    margin: auto;
+    font-weight: bold;
+}
